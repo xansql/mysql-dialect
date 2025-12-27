@@ -1,0 +1,40 @@
+{
+   "name": "@xansql/mysql-dialect",
+   "version": "1.0.1",
+   "main": "./index.js",
+   "module": "./index.mjs",
+   "types": "./index.d.ts",
+   "type": "module",
+   "description": "Xansql Mysql Dialect",
+   "author": "Devnax",
+   "publishConfig": {
+      "access": "public"
+   },
+   "keywords": [],
+   "sideEffects": [],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/xansql/mysql-dialect.git"
+   },
+   "scripts": {
+      "start": "makepack start",
+      "build": "makepack build",
+      "release": "makepack release"
+   },
+   "dependencies": {
+      "mysql2": "^3.14.0"
+   },
+   "devDependencies": {
+      "@types/express": "^5.0.5",
+      "@types/react": "^19.0.2",
+      "@types/react-dom": "^19.0.2",
+      "@xansql/core": "^1.0.21",
+      "dotenv": "^16.5.0",
+      "express": "^5.1.0",
+      "makepack": "^1.7.23",
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0",
+      "tslib": "^2.8.1",
+      "typescript": "^5.9.3"
+   }
+}
